@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrochetoApp.Pages.Access.Login"
+             Title="Login" BackgroundColor="#0f0f0f">
+     <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#242424" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="Margin" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Crocheto" Grid.Row="0" HorizontalTextAlignment="Center" FontSize="56" FontFamily="Cursive" FontAttributes="Italic" TextColor="#f24150" Margin="0, 0, 0, 80"/>
+
+        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="20" Spacing="30">
+            <Entry Placeholder="Username" Text="{Binding Username}" TextColor="white"/>
+            <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" TextColor="white" />
+            <Button Text="Login" Command="{Binding LoginCommand}" BackgroundColor="#fb6e7a"/>
+        </StackLayout>
+
+        <Label Grid.Row="2" HorizontalTextAlignment="Center" Text="Forgot password?" Margin="0,0,0,20" VerticalOptions="End" />
+    </Grid>
+</ContentPage>

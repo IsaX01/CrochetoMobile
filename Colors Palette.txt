@@ -1,0 +1,35 @@
+'pink': {
+    '50': '#fef2f3',
+    '100': '#ffe1e3',
+    '200': '#ffc2c7',
+    '300': '#fea3aa',
+    '400': '#fb6e7a',
+    '500': '#f24150',
+    '600': '#e02232',
+    '700': '#bc1926',
+    '800': '#9b1924',
+    '900': '#811b23',
+    '950': '#46090e',
+},
+
+Black:
+    --clr-surface--100: hsl(0, 0%, 26%) o #424242
+    --clr-surface--200: hsl(0, 0%, 23%) o #3b3b3b
+    --clr-surface--300: hsl(0, 0%, 20%) o #333333
+    --clr-surface--400: hsl(0, 0%, 17%) o #2b2b2b
+    --clr-surface--500: hsl(0, 0%, 15%) o #262626
+    --clr-surface--600: hsl(0, 0%, 12%) o #1f1f1f
+    --clr-surface--700: hsl(0, 0%, 9%) o #171717
+    --clr-surface--800: hsl(0, 0%, 6%) o #0f0f0f
+    --clr-surface--900: hsl(0, 0%, 3%) o #080808
+
+White:
+    --clr-text--100: hsl(0, 0%, 99%) o 
+    --clr-text--200: hsl(0, 0%, 97%) o
+    --clr-text--300: hsl(0, 0%, 95%) o
+    --clr-text--400: hsl(0, 0%, 93%) o
+    --clr-text--500: hsl(0, 0%, 91%) o
+    --clr-text--600: hsl(0, 0%, 89%) o
+    --clr-text--700: hsl(0, 0%, 87%) o
+    --clr-text--800: hsl(0, 0%, 85%) o
+    --clr-text--900: hsl(0, 0%, 83%) o
