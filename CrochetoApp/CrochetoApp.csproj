@@ -66,6 +66,17 @@
 	  <MauiXaml Update="Pages\Access\Login.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Access\SignUp.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\developer\Desktop\CrochetoApp\CrochetoApp\CrochetoApp\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\developer\Desktop\CrochetoApp\CrochetoApp\CrochetoApp\.editorconfig" />
 	</ItemGroup>
 
 </Project>

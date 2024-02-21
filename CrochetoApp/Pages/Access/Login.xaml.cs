@@ -6,4 +6,9 @@ public partial class Login : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    void OnSignUpLabelTapped(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new SignUp());
+    }
 }
