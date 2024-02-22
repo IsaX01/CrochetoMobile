@@ -76,6 +76,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\download.png" />
+	  <None Remove="Resources\Images\favorite.png" />
+	  <None Remove="Resources\Images\login.png" />
+	  <None Remove="Resources\Images\pdf.jpg" />
+	  <None Remove="Resources\Images\share.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Include="C:\Users\developer\Desktop\CrochetoApp\CrochetoApp\CrochetoApp\.editorconfig" />
 	</ItemGroup>
 

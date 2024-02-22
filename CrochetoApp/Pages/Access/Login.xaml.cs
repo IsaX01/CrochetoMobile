@@ -6,9 +6,25 @@ public partial class Login : ContentPage
 	{
 		InitializeComponent();
 	}
-
-    void OnSignUpLabelTapped(object sender, EventArgs e)
+        
+    private void SignUpClick(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new SignUp());
+        Application.Current.MainPage = new SignUp();
     }
+
+    private void EvaluateLogin(object sender, EventArgs e)
+    {
+        var username = UsernameEntry.Text;
+        var password = PasswordEntry.Text;
+
+        if (username == "admin" && password == "12345")
+        {
+            Application.Current.MainPage = new Pages.Home.HomeClient();
+        }
+        else
+        {
+            DisplayAlert("Error", "Invalid credentials", "OK");
+        }
+    }
+
 }

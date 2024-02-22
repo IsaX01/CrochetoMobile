@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CrochetoApp.Pages.Access.Login"
-             Title="Login" BackgroundColor="#f7f8f7" >
+              BackgroundColor="#f7f8f7" >
      <ContentPage.Resources>
         <StyleSheet Source="styles.css" />
         <ResourceDictionary>
@@ -28,10 +28,10 @@
 
         <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="20" Spacing="10">
             <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
-                <Entry Placeholder="Username" Text="{Binding Username}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
+                <Entry Placeholder="Username" x:Name="UsernameEntry" Text="{Binding Username}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
             </Frame>
             <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
-                <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
+                <Entry Placeholder="Password" x:Name="PasswordEntry" IsPassword="True" Text="{Binding Password}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
             </Frame>
 
             <StackLayout Orientation="Horizontal" Spacing="1">
@@ -40,15 +40,11 @@
                 <Label Text="Forgot password?" TextColor="#fb3975" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
             </StackLayout>
 
-            <Button Text="Log in" Command="{Binding LoginCommand}" CornerRadius="0" BackgroundColor="#ff669a" WidthRequest="200" HorizontalOptions="Center" TextColor="#f7f8f7" Margin="0,0,0,150"/>
+            <Button Text="Log in" Command="{Binding LoginCommand}" Clicked="EvaluateLogin" CornerRadius="0" BackgroundColor="#ff669a" WidthRequest="200" HorizontalOptions="Center" TextColor="#f7f8f7" Margin="0,0,0,120"/>
 
             <StackLayout Grid.Row="3" VerticalOptions="End">
                 <Label HorizontalTextAlignment="Center" Text="Don't have an account?" TextColor="#141414"/>
-                <Label HorizontalTextAlignment="Center" Text="Sign up" TextColor="#fb3975" FontAttributes="Bold">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnSignUpLabelTapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
+                <Button Text="Sign Up" Clicked="SignUpClick" CornerRadius="0" BackgroundColor="#f7f8f7" WidthRequest="200" HorizontalOptions="Center" TextColor="#ff669a" Margin="0,0,0,120"/>
             </StackLayout>
         </StackLayout>
         

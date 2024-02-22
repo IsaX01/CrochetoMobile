@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrochetoApp.Pages.Home.HomeClient" xmlns:local="clr-namespace:CrochetoApp">
+    <ContentPage.BindingContext>
+        <local:CardsHome/>
+    </ContentPage.BindingContext>
+    
+    <StackLayout>
+        <!-- Title -->
+        <Label Text="Crocheto" 
+               HorizontalOptions="StartAndExpand" 
+               Padding="10" TextColor="#ff669a" FontAttributes="Italic" FontSize="Title"/>
+
+        <!-- Search Bar -->
+        <SearchBar Placeholder="Search..." Margin="0, 0, 0, 10"/>
+
+        <!-- Filters -->
+        <ScrollView Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal" Spacing="10" Padding="10, 0, 0, 0">
+                <Button Text="Recents" CornerRadius="20" BackgroundColor="#ff669a" Padding="15, 0, 15, 0"/>
+                <Button Text="Trending" CornerRadius="20" BackgroundColor="#f7f8f7" TextColor="#ff669a" BorderColor="#ff669a" BorderWidth="2" FontAttributes="Bold" Padding="15, 0, 15, 0"/>
+                <Button Text="Favorites" CornerRadius="20" BackgroundColor="#f7f8f7" TextColor="#ff669a" BorderColor="#ff669a" BorderWidth="2" FontAttributes="Bold" Padding="15, 0, 15, 0"/>
+                <Button Text="Premiun" CornerRadius="20" BackgroundColor="#f7f8f7" TextColor="#ff669a" BorderColor="#ff669a" BorderWidth="2" FontAttributes="Bold" Padding="15, 0, 15, 0"/>
+                <Button Text="Free" CornerRadius="20" BackgroundColor="#f7f8f7" TextColor="#ff669a" BorderColor="#ff669a" BorderWidth="2" FontAttributes="Bold" Padding="15, 0, 15, 0"/>
+            </StackLayout>
+        </ScrollView>
+                <!-- Cards -->
+       
+         
+                 <ScrollView Orientation="Vertical" >
+                        <!-- Vertical Cards in Two Columns -->
+                    <CollectionView ItemsSource="{Binding TestCard1}" 
+                         ItemsLayout="VerticalGrid, 2" >
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="10" Margin="10" CornerRadius="10" BorderColor="LightGray">
+                                    <StackLayout Spacing="5">
+                                        <Image Source="{Binding Image}" Aspect="AspectFill"/>
+                                        <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Large"/>
+                                        <Label Text="{Binding Description}" FontSize="Small"/>
+                                        <Label Text="{Binding Subtitle}" FontSize="Small" TextColor="Gray"/>
+                                        <StackLayout Orientation="Horizontal" Spacing="10">
+                                            <Button ImageSource="download.png" WidthRequest="30" HeightRequest="30" CornerRadius="15" BackgroundColor="#ff669a"/>
+                                            <Button ImageSource="favorite.png" WidthRequest="30" HeightRequest="30" CornerRadius="15" BackgroundColor="#ff669a"/>
+                                            <Button ImageSource="share.png" WidthRequest="30" HeightRequest="30" CornerRadius="15" BackgroundColor="#ff669a"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                 </ScrollView>
+            <ScrollView  Orientation="Horizontal">
+                <!-- Horizontal Cards with Filter -->
+                <CollectionView ItemsSource="{Binding TestCard2}" 
+                                ItemsLayout="HorizontalList" >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="10" Margin="10">
+                                <StackLayout>
+                                    <Label Text="{Binding Title}" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Subtitle}" FontSize="Small" TextColor="Gray"/>
+                                    <Label Text="{Binding Trending}" FontSize="Small" TextColor="Red"/>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView></ScrollView>
+       
+    </StackLayout>
+</ContentPage>

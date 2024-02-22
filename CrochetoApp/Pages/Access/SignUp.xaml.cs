@@ -6,4 +6,9 @@ public partial class SignUp : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void LoginClick(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new Login();
+    }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\developer\\Desktop\\CrochetoApp\\CrochetoApp\\CrochetoApp\\CrochetoApp.csproj": {}
+    "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\CrochetoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\developer\\Desktop\\CrochetoApp\\CrochetoApp\\CrochetoApp\\CrochetoApp.csproj": {
+    "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\CrochetoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CrochetoApp\\CrochetoApp\\CrochetoApp\\CrochetoApp.csproj",
+        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\CrochetoApp.csproj",
         "projectName": "CrochetoApp",
-        "projectPath": "C:\\Users\\developer\\Desktop\\CrochetoApp\\CrochetoApp\\CrochetoApp\\CrochetoApp.csproj",
+        "projectPath": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\CrochetoApp.csproj",
         "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\developer\\Desktop\\CrochetoApp\\CrochetoApp\\CrochetoApp\\obj\\",
+        "outputPath": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
