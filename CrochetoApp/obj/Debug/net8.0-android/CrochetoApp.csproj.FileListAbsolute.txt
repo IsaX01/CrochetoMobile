@@ -2081,3 +2081,13 @@ C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\r
 C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\login.png
 C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\share.png
 C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\pdf.jpg
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\account.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\dashboard.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\favoriteborder.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\menu.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\menuopen.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\outline.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\settings.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\menu2.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\resizetizer\r\drawable\menuopen2.png

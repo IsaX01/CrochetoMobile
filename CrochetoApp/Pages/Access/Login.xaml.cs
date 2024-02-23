@@ -5,8 +5,10 @@ public partial class Login : ContentPage
 	public Login()
 	{
 		InitializeComponent();
-	}
-        
+
+       
+    }
+
     private void SignUpClick(object sender, EventArgs e)
     {
         Application.Current.MainPage = new SignUp();
@@ -19,7 +21,8 @@ public partial class Login : ContentPage
 
         if (username == "admin" && password == "12345")
         {
-            Application.Current.MainPage = new Pages.Home.HomeClient();
+            Application.Current.MainPage = new Menu.AppShellClient();
+
         }
         else
         {

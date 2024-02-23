@@ -76,10 +76,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\account.png" />
+	  <None Remove="Resources\Images\dashboard.png" />
 	  <None Remove="Resources\Images\download.png" />
 	  <None Remove="Resources\Images\favorite.png" />
+	  <None Remove="Resources\Images\favoriteborder.png" />
+	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\login.png" />
+	  <None Remove="Resources\Images\menu.png" />
+	  <None Remove="Resources\Images\menu2.png" />
+	  <None Remove="Resources\Images\menuopen.png" />
+	  <None Remove="Resources\Images\menuopen2.png" />
+	  <None Remove="Resources\Images\outline.png" />
 	  <None Remove="Resources\Images\pdf.jpg" />
+	  <None Remove="Resources\Images\settings.png" />
 	  <None Remove="Resources\Images\share.png" />
 	</ItemGroup>
 

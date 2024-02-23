@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrochetoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+025ee69bdbe803b896b38672cede8354b59f9b5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f87af2466d7620189b66ebe42b1e0e591feabd6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrochetoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrochetoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,6 +8,21 @@
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
     </Style>
 
+    <Style x:Key="ActiveButtonStyle" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#ff669a" />
+        <Setter Property="TextColor" Value="#f7f8f7" />
+        <!-- Otros setters si los necesitas -->
+    </Style>
+    <Style x:Key="InactiveButtonStyle" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#f7f8f7" />
+        <Setter Property="TextColor" Value="#ff669a" />
+        <Setter Property="BorderColor" Value="#ff669a" />
+        <Setter Property="BorderWidth" Value="2" />
+        <Setter Property="FontAttributes" Value="Bold" />
+
+        <!-- Otros setters si los necesitas -->
+    </Style>
+
     <Style TargetType="IndicatorView">
         <Setter Property="IndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}"/>
         <Setter Property="SelectedIndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray100}}"/>

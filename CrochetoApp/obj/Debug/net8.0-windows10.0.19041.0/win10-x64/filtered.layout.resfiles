@@ -1,3 +1,4 @@
+account.scale-100.png
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -44,6 +45,7 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+dashboard.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -51,7 +53,15 @@ dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
 download.scale-100.png
 favorite.scale-100.png
+favoriteborder.scale-100.png
+home.scale-100.png
 login.scale-100.png
+menu.scale-100.png
+menu2.scale-100.png
+menuopen.scale-100.png
+menuopen2.scale-100.png
+outline.scale-100.png
 pdf.scale-100.jpg
+settings.scale-100.png
 share.scale-100.png
 AboutAssets.txt

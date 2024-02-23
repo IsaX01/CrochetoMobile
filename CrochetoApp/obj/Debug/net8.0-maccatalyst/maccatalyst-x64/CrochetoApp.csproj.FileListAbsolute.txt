@@ -605,3 +605,13 @@ C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccataly
 C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\login.png
 C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\download.png
 C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\favorite.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menuopen2.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menuopen.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\home.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dashboard.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\settings.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\outline.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menu2.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menu.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\favoriteborder.png
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\account.png

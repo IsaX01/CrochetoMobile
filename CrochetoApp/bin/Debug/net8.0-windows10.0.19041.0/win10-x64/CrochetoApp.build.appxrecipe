@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
+      <PackagePath>account.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -178,6 +181,9 @@
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dashboard.scale-100.png">
+      <PackagePath>dashboard.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -199,11 +205,35 @@
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favorite.scale-100.png">
       <PackagePath>favorite.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favoriteborder.scale-100.png">
+      <PackagePath>favoriteborder.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login.scale-100.png">
       <PackagePath>login.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
+      <PackagePath>menu.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu2.scale-100.png">
+      <PackagePath>menu2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menuopen.scale-100.png">
+      <PackagePath>menuopen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menuopen2.scale-100.png">
+      <PackagePath>menuopen2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outline.scale-100.png">
+      <PackagePath>outline.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pdf.scale-100.jpg">
       <PackagePath>pdf.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
+      <PackagePath>settings.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share.scale-100.png">
       <PackagePath>share.scale-100.png</PackagePath>
