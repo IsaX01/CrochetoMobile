@@ -63,10 +63,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="AdminAppShell.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Access\Login.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Access\SignUp.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Home\HomeAdmin.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="UserAppShell.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
@@ -95,6 +104,10 @@
 
 	<ItemGroup>
 	  <None Include="C:\Users\developer\Desktop\CrochetoApp\CrochetoApp\CrochetoApp\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Pages\Menu\" />
 	</ItemGroup>
 
 </Project>

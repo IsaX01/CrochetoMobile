@@ -19,10 +19,14 @@ public partial class Login : ContentPage
         var username = UsernameEntry.Text;
         var password = PasswordEntry.Text;
 
-        if (username == "admin" && password == "12345")
+        if (username == "user" && password == "12345")
         {
-            Application.Current.MainPage = new Menu.AppShellClient();
+            Application.Current.MainPage = new UserAppShell();
 
+        }
+        else if (username == "admin" && password == "12345")
+        {
+            Application.Current.MainPage = new AdminAppShell();
         }
         else
         {

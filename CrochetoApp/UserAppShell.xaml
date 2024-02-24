@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CrochetoApp.UserAppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CrochetoApp"
+    xmlns:local2="clr-namespace:CrochetoApp.Pages.Home"
+    Shell.FlyoutBehavior="Disabled"
+    Title="CrochetoApp">
+
+    <FlyoutItem Title="User" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate local2:HomeClient}" Icon="home.png" Route="homeclient"/>
+        <ShellContent Title="Account" ContentTemplate="{DataTemplate local2:HomeAdmin}" Icon="account.png" Route="homeaccount" />
+        <ShellContent Title="Log Out" Icon="outline.png" Route="homelogout" />
+
+    </FlyoutItem>
+
+</Shell>

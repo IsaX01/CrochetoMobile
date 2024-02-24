@@ -8,10 +8,19 @@
     <DefaultDevice>pixel_5_-_api_34_1</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="AdminAppShell.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\Access\Login.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\Access\SignUp.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Home\HomeAdmin.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="UserAppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

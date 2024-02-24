@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\home\\homeclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\home\\homeclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\userappshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\userappshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\home\\homeclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\home\\homeclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\cardshome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\cardshome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\menu\\appshellclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\menu\\appshellclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\access\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\access\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\userappshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\userappshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\access\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\access\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\adminappshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\adminappshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\adminappshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\adminappshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\home\\homeadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\home\\homeadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\access\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\access\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\cardshome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\cardshome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\home\\homeclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\home\\homeclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\home\\homeclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\home\\homeclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\access\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\access\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -39,12 +67,8 @@
       "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\access\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\access\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\access\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|c:\\users\\developer\\desktop\\crochetomobile\\crochetoapp\\pages\\access\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D1EED2-E9C9-4C7C-BC75-6478929B2490}|CrochetoApp\\CrochetoApp.csproj|solutionrelative:crochetoapp\\pages\\access\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,15 +82,93 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShellClient.cs",
-              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Menu\\AppShellClient.cs",
-              "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Menu\\AppShellClient.cs",
-              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Menu\\AppShellClient.cs",
-              "RelativeToolTip": "CrochetoApp\\Pages\\Menu\\AppShellClient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABBAAAA",
+              "DocumentIndex": 6,
+              "Title": "AdminAppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AdminAppShell.xaml.cs",
+              "RelativeDocumentMoniker": "CrochetoApp\\AdminAppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AdminAppShell.xaml.cs",
+              "RelativeToolTip": "CrochetoApp\\AdminAppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T19:49:01.573Z",
+              "WhenOpened": "2024-02-24T15:45:17.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminAppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AdminAppShell.xaml",
+              "RelativeDocumentMoniker": "CrochetoApp\\AdminAppShell.xaml",
+              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AdminAppShell.xaml",
+              "RelativeToolTip": "CrochetoApp\\AdminAppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T15:44:22.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserAppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\UserAppShell.xaml.cs",
+              "RelativeDocumentMoniker": "CrochetoApp\\UserAppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\UserAppShell.xaml.cs",
+              "RelativeToolTip": "CrochetoApp\\UserAppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:39:05.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\UserAppShell.xaml",
+              "RelativeDocumentMoniker": "CrochetoApp\\UserAppShell.xaml",
+              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\UserAppShell.xaml",
+              "RelativeToolTip": "CrochetoApp\\UserAppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T15:38:15.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Home\\HomeAdmin.xaml",
+              "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Home\\HomeAdmin.xaml",
+              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Home\\HomeAdmin.xaml",
+              "RelativeToolTip": "CrochetoApp\\Pages\\Home\\HomeAdmin.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T14:31:24.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "CrochetoApp\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "CrochetoApp\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T14:08:48.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "CrochetoApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\AppShell.xaml",
+              "RelativeToolTip": "CrochetoApp\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T14:08:41.336Z",
               "EditorCaption": ""
             },
             {
@@ -77,53 +179,50 @@
               "RelativeDocumentMoniker": "CrochetoApp\\Resources\\Styles\\Styles.xaml",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Resources\\Styles\\Styles.xaml",
               "RelativeToolTip": "CrochetoApp\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-02-23T15:49:05.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "HomeClient.xaml",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Home\\HomeClient.xaml",
               "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Home\\HomeClient.xaml",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Home\\HomeClient.xaml",
               "RelativeToolTip": "CrochetoApp\\Pages\\Home\\HomeClient.xaml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-22T17:33:04.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T17:33:04.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "HomeClient.xaml.cs",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Home\\HomeClient.xaml.cs",
               "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Home\\HomeClient.xaml.cs",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Home\\HomeClient.xaml.cs",
               "RelativeToolTip": "CrochetoApp\\Pages\\Home\\HomeClient.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:22:00.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:22:00.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "CardsHome.cs",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\CardsHome.cs",
               "RelativeDocumentMoniker": "CrochetoApp\\CardsHome.cs",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\CardsHome.cs",
               "RelativeToolTip": "CrochetoApp\\CardsHome.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAkwG0AAACPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:11:22.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:11:22.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "SignUp.xaml.cs",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Access\\SignUp.xaml.cs",
               "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Access\\SignUp.xaml.cs",
@@ -131,12 +230,11 @@
               "RelativeToolTip": "CrochetoApp\\Pages\\Access\\SignUp.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T20:39:16.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T20:39:16.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "SignUp.xaml",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Access\\SignUp.xaml",
               "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Access\\SignUp.xaml",
@@ -144,60 +242,58 @@
               "RelativeToolTip": "CrochetoApp\\Pages\\Access\\SignUp.xaml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-21T20:36:59.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T20:36:59.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\App.xaml",
               "RelativeDocumentMoniker": "CrochetoApp\\App.xaml",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\App.xaml",
               "RelativeToolTip": "CrochetoApp\\App.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-02-21T12:17:28.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "CrochetoApp\\App.xaml.cs",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\App.xaml.cs",
               "RelativeToolTip": "CrochetoApp\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T22:10:25.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Access\\Login.xaml.cs",
               "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Access\\Login.xaml.cs",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Access\\Login.xaml.cs",
               "RelativeToolTip": "CrochetoApp\\Pages\\Access\\Login.xaml.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBAAAAACAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAsAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T22:10:16.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Access\\Login.xaml",
               "RelativeDocumentMoniker": "CrochetoApp\\Pages\\Access\\Login.xaml",
               "ToolTip": "C:\\Users\\developer\\Desktop\\CrochetoMobile\\CrochetoApp\\Pages\\Access\\Login.xaml",
               "RelativeToolTip": "CrochetoApp\\Pages\\Access\\Login.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAABXAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-20T22:09:40.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T22:09:40.083Z"
             }
           ]
         }

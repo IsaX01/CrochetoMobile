@@ -16,6 +16,12 @@ build_property.ProjectDir = C:\Users\developer\Desktop\CrochetoMobile\CrochetoAp
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/AdminAppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.AdminAppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AdminAppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AdminAppShell.xaml
+
 [C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.App.xaml
@@ -46,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Access.S
 build_metadata.AdditionalFiles.TargetPath = Pages\Access\SignUp.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Access\SignUp.xaml
 
+[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Home/HomeAdmin.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Home.HomeAdmin.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Home\HomeAdmin.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Home\HomeAdmin.xaml
+
 [C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Home/HomeClient.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Home.HomeClient.xaml
@@ -63,6 +75,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/UserAppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.UserAppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = UserAppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = UserAppShell.xaml
 
 [C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Access/styles.css]
 build_metadata.AdditionalFiles.GenKind = Css
