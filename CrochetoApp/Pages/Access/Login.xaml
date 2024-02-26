@@ -32,10 +32,9 @@
                 <Entry Placeholder="Password" x:Name="PasswordEntry" IsPassword="True" Text="{Binding Password}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
             </Frame>
 
-            <StackLayout Spacing="20">
+            <StackLayout>
                 <Button Text="Log in" Command="{Binding LoginCommand}" Clicked="EvaluateLogin" CornerRadius="15" BackgroundColor="#ff669a" WidthRequest="200" HorizontalOptions="Center" TextColor="#f7f8f7" />
-                <Label Text="Forgot password?" TextColor="#fb3975" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
-                
+                <Button Text="Forgot password?"  Clicked="newPassword" CornerRadius="0" BackgroundColor="#f7f8f7" WidthRequest="170" HorizontalOptions="Center" TextColor="#fb3975"/>
             </StackLayout>
 
         </StackLayout>

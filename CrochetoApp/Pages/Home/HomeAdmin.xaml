@@ -19,28 +19,29 @@
 
         <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5">
             <Label Text="Crocheto" 
-               HorizontalOptions="StartAndExpand" 
+               HorizontalOptions="Start" 
                TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
+            <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
         </StackLayout>
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="5" Padding="6">
             <Label Text="Admin Dashboard" 
-               HorizontalOptions="StartAndExpand" 
-               TextColor="Black" FontAttributes="Bold" FontSize="25" />
+               HorizontalOptions="EndAndExpand" 
+               TextColor="Black" FontAttributes="Bold" FontSize="24" />
         </StackLayout>
 
         <ScrollView Grid.Row="2" Padding="5">
             <StackLayout Spacing="20" Margin="5">
                 <StackLayout>
-                    <Label Text="Access Users" FontSize="24" TextColor="#ff669a"/>
-                    <charts:ChartView x:Name='accessUsers' HeightRequest="400"/>
+                    <Label Text="Access Users" FontSize="22" TextColor="#ff669a"/>
+                    <charts:ChartView x:Name='accessUsers' HeightRequest="400" BackgroundColor="#80ff669a"/>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="Downloads" FontSize="24" TextColor="#ff669a"/>
+                    <Label Text="Downloads" FontSize="22" TextColor="#ff669a"/>
                     <charts:ChartView x:Name='downloads' HeightRequest="400"/>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="Registered Users" FontSize="24" TextColor="#ff669a"/>
+                    <Label Text="Registered Users" FontSize="22" TextColor="#ff669a"/>
                     <charts:ChartView x:Name='registerUsers' HeightRequest="400"/>
                 </StackLayout>
             </StackLayout>

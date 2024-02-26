@@ -96,25 +96,31 @@ namespace CrochetoApp
 
             RecentsCollection = new ObservableCollection<CardData>
             {
-            new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-            new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-             new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-              new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-               new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-                new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-                new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-            new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-             new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-              new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-               new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
-                new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free", Trending = "Trending" },
+            new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+            new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free"},
+             new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+              new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free"},
+               new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+                new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+                new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+            new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+             new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+              new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+               new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
+                new CardData { Image = "pdf.jpg", Title = "Title 1", Description = "Description 1", Subtitle = "Free" },
 
              };
 
             TrendingCollection = new ObservableCollection<CardData>
             {
                 new CardData { Image = "", Title = "Title 2", Description = "", Subtitle = "Premium", Trending = "Hot" },
-           
+                new CardData { Image = "", Title = "Title 2", Description = "", Subtitle = "Premium", Trending = "Hot" },
+                                             new CardData { Image = "", Title = "Title 2", Description = "", Subtitle = "Free", Trending = "Hot" },
+                                                             new CardData { Image = "", Title = "Title 2", Description = "", Subtitle = "Free", Trending = "Hot" },
+                                                                             new CardData { Image = "", Title = "Title 2", Description = "", Subtitle = "Premium", Trending = "Hot" },
+                                             new CardData { Image = "", Title = "Title 2", Description = "", Subtitle = "Free", Trending = "Up" },
+                                                             new CardData { Image = "", Title = "Title 2", Description = "", Subtitle = "Free", Trending = "Up" },
+
             };
 
             FilteredCollection = RecentsCollection; // Initial state
