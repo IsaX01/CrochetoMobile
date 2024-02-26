@@ -3,9 +3,9 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 5 - API 34 (1) (Android 14.0 - API 34)</ActiveDebugProfile>
+    <ActiveDebugProfile>Device (Android 14.0 - API 34)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <DefaultDevice>pixel_5_-_api_34_1</DefaultDevice>
+    <DefaultDevice>device</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="AdminAppShell.xaml">
@@ -14,10 +14,19 @@
     <MauiXaml Update="Pages\Access\Login.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\Access\Logout.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\Access\SignUp.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\Home\HomeAdmin.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Maintenances\Mantenances.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Profile\Profile.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="UserAppShell.xaml">
