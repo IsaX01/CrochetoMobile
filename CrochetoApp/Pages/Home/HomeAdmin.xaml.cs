@@ -18,7 +18,7 @@ public partial class HomeAdmin : ContentPage
         {
             Entries = downloadEntries
         };
-        registerUsers.Chart = new LineChart
+        registerUsers.Chart = new DonutChart
         {
             Entries = registerEntries
         };

@@ -977,3 +977,12 @@ C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-i
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-ios\iossimulator-x64\CrochetoApp.genruntimeconfig.cache
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-ios\iossimulator-x64\ref\CrochetoApp.dll
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\Microcharts.Maui.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Views.iOS.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Views.Maui.Core.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\Info.plist
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\CodeResources
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-ios\iossimulator-x64\libSkiaSharp
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\next.png

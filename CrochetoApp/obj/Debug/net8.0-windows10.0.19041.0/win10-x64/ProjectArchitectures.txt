@@ -1,1 +1,1 @@
-C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\CrochetoApp.csproj;x64
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\CrochetoApp.csproj;x64

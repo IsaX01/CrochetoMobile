@@ -87,6 +87,12 @@
 	  <MauiXaml Update="Pages\Maintenances\Mantenances.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile\Password2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile\Password.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Profile\Profile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -111,6 +117,7 @@
 	  <None Remove="Resources\Images\menu2.png" />
 	  <None Remove="Resources\Images\menuopen.png" />
 	  <None Remove="Resources\Images\menuopen2.png" />
+	  <None Remove="Resources\Images\next.png" />
 	  <None Remove="Resources\Images\outline.png" />
 	  <None Remove="Resources\Images\pdf.jpg" />
 	  <None Remove="Resources\Images\settings.png" />
@@ -123,6 +130,12 @@
 
 	<ItemGroup>
 	  <Folder Include="Pages\Menu\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Pages\Profile\Password2.xaml.cs">
+	    <DependentUpon>Password2.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionCrochetoAppHideInfoBar="True" /></VisualStudio></ProjectExtensions>

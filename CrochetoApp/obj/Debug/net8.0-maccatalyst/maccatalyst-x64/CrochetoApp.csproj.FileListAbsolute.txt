@@ -937,3 +937,10 @@ C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-m
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\CrochetoApp.pdb
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\CrochetoApp.genruntimeconfig.cache
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\CrochetoApp.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microcharts.Maui.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.iOS.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Core.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSkiaSharp.framework.zip
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\next.png

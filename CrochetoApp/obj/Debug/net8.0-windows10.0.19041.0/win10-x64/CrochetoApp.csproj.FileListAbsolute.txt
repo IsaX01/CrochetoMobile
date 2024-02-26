@@ -510,3 +510,10 @@ C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-w
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microcharts.Maui.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Core.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Windows.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll
+C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\next.scale-100.png
