@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrochetoApp.Pages.Profile.Profile"
+             Title="Profile" Shell.NavBarIsVisible="False">
+    <StackLayout>
+        <Frame BackgroundColor="#ff669a">
+            <StackLayout>
+                <Label Text="John Doe" FontSize="24" TextColor="White" />
+                <Label Text="johndoe@example.com" TextColor="White" />
+                <Label Text="Software Developer" TextColor="White" />
+            </StackLayout>
+        </Frame>
+        <Frame BackgroundColor="#fb3975">
+            <Label Text="A passionate software developer with over 5 years of experience..."
+                   TextColor="White" />
+        </Frame>
+    </StackLayout>
+</ContentPage>

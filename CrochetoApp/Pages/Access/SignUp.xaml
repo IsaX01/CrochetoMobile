@@ -18,16 +18,14 @@
 
     <Grid Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Padding="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="2*" />
         </Grid.RowDefinitions>
 
-        <Label Text="Crocheto" Grid.Row="0" HorizontalTextAlignment="Center" FontSize="56" FontFamily="Cursive" FontAttributes="Italic" TextColor="#ff669a" Margin="0, 0, 0, 40"/>
+        <Label Text="Crocheto" Grid.Row="0" HorizontalTextAlignment="Center" FontSize="56" FontFamily="Cursive" FontAttributes="Italic" TextColor="#ff669a" Margin="0, 80, 0, 50"/>
 
-        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="20" Spacing="10">
+        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="20, 60, 20, 50" Spacing="15">
             <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
                 <Entry Placeholder="Username" Text="{Binding Username}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
             </Frame>
@@ -38,15 +36,14 @@
                 <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
             </Frame>
 
-            <Button Text="Sign Up" Command="{Binding SignUpCommand}" CornerRadius="0" BackgroundColor="#ff669a" WidthRequest="200" HorizontalOptions="Center" TextColor="#f7f8f7" Margin="0,0,0,120"/>
+            <Button Text="Sign Up" Command="{Binding SignUpCommand}" CornerRadius="15" BackgroundColor="#ff669a" WidthRequest="200" HorizontalOptions="Center" TextColor="#f7f8f7"/>
 
-            <StackLayout Grid.Row="3" VerticalOptions="End">
-                <Label HorizontalTextAlignment="Center" Text="Already have account?" TextColor="#141414"/>
-                <Button Text="Login" Clicked="LoginClick" CornerRadius="0" BackgroundColor="#f7f8f7" WidthRequest="200" HorizontalOptions="Center" TextColor="#ff669a" Margin="0,0,0,120"/>
-
-            </StackLayout>
+            
         </StackLayout>
-
+        <StackLayout Grid.Row="2" VerticalOptions="End" Margin="0,140,0,0">
+                <Label HorizontalTextAlignment="Center" Text="Already have account?" TextColor="#141414"/>
+            <Button Text="Login" Clicked="LoginClick" CornerRadius="0" BackgroundColor="#f7f8f7" WidthRequest="200" HorizontalOptions="Center" TextColor="#ff669a"/>
+        </StackLayout>
 
 
 

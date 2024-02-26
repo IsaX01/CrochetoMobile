@@ -4,12 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CrochetoApp"
     xmlns:local2="clr-namespace:CrochetoApp.Pages.Home"
+    xmlns:local3="clr-namespace:CrochetoApp.Pages.Access"
     Shell.FlyoutBehavior="Disabled"
     Title="CrochetoApp" x:Class="CrochetoApp.AdminAppShell">
 
     <FlyoutItem Title="Admin" FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Dashboard" ContentTemplate="{DataTemplate local2:HomeAdmin}" Icon="dashboard.png" Route="homeadmin" />
-        <ShellContent Title="Log Out" Icon="outline.png" Route="homelogout" />
+        <ShellContent Title="Maintenances" Icon="settings.png" ContentTemplate="{DataTemplate local3:Logout}" Route="homemaintenance" />
+        <ShellContent Title="Log Out"  Icon="outline.png" ContentTemplate="{DataTemplate local3:Logout}" Route="homelogout" />
     </FlyoutItem>
 
 </Shell>

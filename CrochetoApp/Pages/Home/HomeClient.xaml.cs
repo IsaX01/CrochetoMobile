@@ -14,10 +14,6 @@ public partial class HomeClient : ContentPage
 
         RecentButton.Command.Execute(null);
     }
-    private void OnMenuButtonClicked(object sender, EventArgs e)
-    {
-        Shell.Current.FlyoutIsPresented = !Shell.Current.FlyoutIsPresented;
-    }
     
 
 }

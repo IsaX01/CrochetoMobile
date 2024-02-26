@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microcharts.Maui;
 
 namespace CrochetoApp
 {
@@ -13,7 +14,8 @@ namespace CrochetoApp
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+                })
+                .UseMicrocharts();
 
 #if DEBUG
     		builder.Logging.AddDebug();

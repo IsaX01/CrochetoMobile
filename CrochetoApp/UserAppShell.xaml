@@ -5,13 +5,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CrochetoApp"
     xmlns:local2="clr-namespace:CrochetoApp.Pages.Home"
+    xmlns:local3="clr-namespace:CrochetoApp.Pages.Access"
+    xmlns:local4="clr-namespace:CrochetoApp.Pages.Profile"
     Shell.FlyoutBehavior="Disabled"
     Title="CrochetoApp">
 
     <FlyoutItem Title="User" FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Home" ContentTemplate="{DataTemplate local2:HomeClient}" Icon="home.png" Route="homeclient"/>
-        <ShellContent Title="Account" ContentTemplate="{DataTemplate local2:HomeAdmin}" Icon="account.png" Route="homeaccount" />
-        <ShellContent Title="Log Out" Icon="outline.png" Route="homelogout" />
+        <ShellContent Title="Account" ContentTemplate="{DataTemplate local4:Profile}" Icon="account.png" Route="homeaccount" />
+        <ShellContent Title="Log Out"  Icon="outline.png" ContentTemplate="{DataTemplate local3:Logout}" Route="homelogout" />
 
     </FlyoutItem>
 

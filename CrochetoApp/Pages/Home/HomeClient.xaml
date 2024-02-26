@@ -31,11 +31,11 @@
 
         <ScrollView Orientation="Horizontal" Grid.Row="2">
             <StackLayout Orientation="Horizontal" Spacing="10" Padding="10, 0, 0, 0" >
-                <Button x:Name="RecentButton" Text="Recents" Command="{Binding FilterCommand}" CommandParameter="Recents" CornerRadius="20" Style="{Binding RecentButtonStyle}"></Button>
-                <Button Text="Trending" Command="{Binding FilterCommand}" CommandParameter="Trending" CornerRadius="20" Style="{Binding TrendingButtonStyle}"/>
-                <Button Text="Favorites" Command="{Binding FilterCommand}" CommandParameter="Favorites" CornerRadius="20" />
-                <Button Text="Premiun" Command="{Binding FilterCommand}" CommandParameter="Premiun" CornerRadius="20"/>
-                <Button Text="Free" Command="{Binding FilterCommand}" CommandParameter="Free" CornerRadius="20"/>
+                <Button x:Name="RecentButton" Text="Recents" Command="{Binding FilterCommand}" CommandParameter="Recents" TextColor="#f7f8f7" BackgroundColor="#ff669a" CornerRadius="20" Style="{Binding RecentButtonStyle}"></Button>
+                <Button Text="Trending" Command="{Binding FilterCommand}" CommandParameter="Trending" CornerRadius="20" Style="{Binding TrendingButtonStyle}" BorderColor="#ff669a" BorderWidth="2" TextColor="#ff669a" BackgroundColor="#f7f8f7"/>
+                <Button Text="Favorites" Command="{Binding FilterCommand}" CommandParameter="Favorites" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
+                <Button Text="Premiun" Command="{Binding FilterCommand}" CommandParameter="Premiun" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
+                <Button Text="Free" Command="{Binding FilterCommand}" CommandParameter="Free" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
 
             </StackLayout>
         </ScrollView>

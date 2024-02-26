@@ -8,77 +8,95 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrochetoApp
-build_property.ProjectDir = C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\
+build_property.ProjectDir = C:\Users\isaia\OneDrive\Documentos\CrochetoMobile\CrochetoApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/AdminAppShell.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/AdminAppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.AdminAppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AdminAppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AdminAppShell.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/App.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/AppShell.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/MainPage.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Access/Login.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Access/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Access.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Access\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Access\Login.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Access/SignUp.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Access/Logout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Access.Logout.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Access\Logout.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Access\Logout.xaml
+
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Access/SignUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Access.SignUp.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Access\SignUp.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Access\SignUp.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Home/HomeAdmin.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Home/HomeAdmin.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Home.HomeAdmin.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Home\HomeAdmin.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Home\HomeAdmin.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Home/HomeClient.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Home/HomeClient.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Home.HomeClient.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Home\HomeClient.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Home\HomeClient.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Resources/Styles/Colors.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Maintenances/Mantenances.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Maintenances.Mantenances.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Maintenances\Mantenances.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Maintenances\Mantenances.xaml
+
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Profile/Profile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Profile.Profile.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Profile\Profile.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Profile\Profile.xaml
+
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Resources/Styles/Styles.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/UserAppShell.xaml]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/UserAppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.UserAppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = UserAppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = UserAppShell.xaml
 
-[C:/Users/developer/Desktop/CrochetoMobile/CrochetoApp/Pages/Access/styles.css]
+[C:/Users/isaia/OneDrive/Documentos/CrochetoMobile/CrochetoApp/Pages/Access/styles.css]
 build_metadata.AdditionalFiles.GenKind = Css
 build_metadata.AdditionalFiles.ManifestResourceName = CrochetoApp.Pages.Access.styles.css
 build_metadata.AdditionalFiles.TargetPath = Pages\Access\styles.css
