@@ -1,7 +1,7 @@
 @string/appbar_scrolling_view_behavior;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\161\jl\res\layout\fragment_backstack.xml
 @string/appbar_scrolling_view_behavior;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\161\jl\res\layout\navigationlayout.xml
-adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto_round.xml
 alpha;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\159\jl\res\anim\enterfromleft.xml
 alpha;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\159\jl\res\anim\exittoleft.xml
 alpha;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\161\jl\res\anim\nav_default_enter_anim.xml
@@ -16,8 +16,8 @@ androidx.fragment.app.FragmentContainerView;C:\Users\developer\Desktop\CrochetoM
 attr;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\158\jl\res\values\attrs.xml
 attr;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\161\jl\res\values\attr.xml
 attr;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\163\jl\res\values\attrs.xml
-background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto_round.xml
 bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 cache-path;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\162\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
@@ -34,8 +34,8 @@ declare-styleable;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debu
 declare-styleable;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\163\jl\res\values\attrs.xml
 external-cache-path;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\162\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\162\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
-foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto_round.xml
 item;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\158\jl\res\values\styles.xml
 item;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\161\jl\res\drawable\maui_splash.xml
 item;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\161\jl\res\values\styles.xml
@@ -46,8 +46,8 @@ layer-list;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.
 layer-list;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 layer-list;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\159\jl\res\layout\flyoutcontent.xml
-monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\crocheto_round.xml
 paths;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\162\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 resources;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\158\jl\res\values\attrs.xml
 resources;C:\Users\developer\Desktop\CrochetoMobile\CrochetoApp\obj\Debug\net8.0-android\lp\158\jl\res\values\styles.xml

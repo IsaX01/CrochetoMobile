@@ -38,16 +38,21 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+	  <AndroidUseAapt2>True</AndroidUseAapt2>
+	  <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+	  <AndroidPackageFormat>aab</AndroidPackageFormat>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\crocheto.png" ForegroundScale="0.65" />
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -107,7 +112,9 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\account.png" />
+	  <None Remove="Resources\Images\back.png" />
 	  <None Remove="Resources\Images\dashboard.png" />
+	  <None Remove="Resources\Images\done.png" />
 	  <None Remove="Resources\Images\download.png" />
 	  <None Remove="Resources\Images\favorite.png" />
 	  <None Remove="Resources\Images\favoriteborder.png" />
@@ -118,7 +125,8 @@
 	  <None Remove="Resources\Images\menuopen.png" />
 	  <None Remove="Resources\Images\menuopen2.png" />
 	  <None Remove="Resources\Images\next.png" />
-	  <None Remove="Resources\Images\outline.png" />
+	  <None Remove="Resources\Images\next2.png"/>
+		<None Remove="Resources\Images\outline.png" />
 	  <None Remove="Resources\Images\pdf.jpg" />
 	  <None Remove="Resources\Images\settings.png" />
 	  <None Remove="Resources\Images\share.png" />

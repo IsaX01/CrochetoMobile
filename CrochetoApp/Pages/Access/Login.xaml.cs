@@ -34,7 +34,7 @@ public partial class Login : ContentPage
         }
     }
 
-    private void newPassword(object sender, EventArgs e)
+    private void NewPassword(object sender, EventArgs e)
     {
         Application.Current.MainPage = new Profile.Password2();
     }
