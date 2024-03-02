@@ -19,10 +19,10 @@
             <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
         </StackLayout>
 
-        <StackLayout Grid.Row="1" Spacing="12">
-            <Frame BackgroundColor="#ff669a">
+        <StackLayout Grid.Row="1" Spacing="10" Margin="5">
+            <Frame BorderColor="#ff669a">
                 <Frame.Shadow>
-                    <Shadow Radius="10" Opacity="1" Brush="#161616" Offset="10,10" />
+                    <Shadow Radius="10" Opacity="1" Brush="#ff669a" Offset="10,10" />
                 </Frame.Shadow>
                 <StackLayout Orientation="Horizontal" Spacing="20">
 
@@ -30,55 +30,55 @@
 
               
                     <StackLayout>
-                        <Label Text="Isaias Badia" FontSize="24" TextColor="White" />
-                        <Label Text="isaiasbadia@badiagroup.com" TextColor="White" />
-                        <Label Text="Software Developer" TextColor="White" />
+                        <Label Text="Isaias Badia" FontSize="24" TextColor="#ff619a" />
+                        <Label Text="isaiasbadia@badiagroup.com" TextColor="#ff619a" />
+                        <Label Text="Software Developer" TextColor="#ff619a" />
                     </StackLayout>
 
  
                     <ImageButton Source="outline.png" WidthRequest="35" HeightRequest="35" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
                 </StackLayout>
             </Frame>
-            <Frame BackgroundColor="#f76f9c" Margin="0" Padding="0" HasShadow="True">
+            <Frame BorderColor="#f76f9c" Margin="0" Padding="0" HasShadow="True">
                 <Frame.Shadow>
-                    <Shadow Radius="10" Opacity="1" Brush="#161616" Offset="10,10" />
+                    <Shadow Radius="10" Opacity="1" Brush="#f76f9c" Offset="10,10" />
                 </Frame.Shadow>
-                <StackLayout Spacing="15" Margin="10">
+                <StackLayout Spacing="10" Margin="10">
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Account information" FontSize="16" BackgroundColor="Transparent" BorderColor="#f7f8f7"   />
-                        <ImageButton Source="next.png" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
+                        <Button Text="Account information" FontSize="16" BackgroundColor="Transparent" TextColor="#f76f9c" BorderColor="#f7f8f7"   />
+                        <ImageButton Source="next2.png" WidthRequest="35" HeightRequest="35" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
-                        <Button  Clicked="newPassword" Text="Passwords" BackgroundColor="Transparent" FontSize="16" BorderColor="#f7f8f7"/>
-                        <ImageButton Source="next.png" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
+                        <Button  Clicked="NewPassword"  Text="Passwords" BackgroundColor="Transparent" TextColor="#f76f9c" FontSize="16" BorderColor="#f7f8f7" />
+                        <ImageButton Source="next2.png" WidthRequest="35" HeightRequest="35" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Privacy Policy" FontSize="16" BackgroundColor="Transparent" BorderColor="#f7f8f7" />
-                        <ImageButton Source="next.png" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
+                        <Button Text="Privacy Policy" FontSize="16" BackgroundColor="Transparent" TextColor="#f76f9c" BorderColor="#f7f8f7" />
+                        <ImageButton Source="next2.png" WidthRequest="35" HeightRequest="35" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Notification" BackgroundColor="Transparent" FontSize="16" BorderColor="#f7f8f7"/>
-                        <ImageButton Source="next.png" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
+                        <Button Text="Notification" BackgroundColor="Transparent" FontSize="16" TextColor="#f76f9c" BorderColor="#f7f8f7"/>
+                        <ImageButton Source="next2.png" WidthRequest="35" HeightRequest="35" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Languages" BackgroundColor="Transparent" FontSize="16" BorderColor="#f7f8f7" />
-                        <ImageButton Source="next.png" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
+                        <Button Text="Languages" BackgroundColor="Transparent" FontSize="16" TextColor="#f76f9c" BorderColor="#f7f8f7" />
+                        <ImageButton Source="next2.png" WidthRequest="35" HeightRequest="35" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Share Crocheto ♥" BackgroundColor="Transparent" FontSize="16" BorderColor="#f7f8f7"/>
-                        <ImageButton Source="share.png" WidthRequest="25" HeightRequest="30" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" Margin="5"/>
+                        <Button Text="Share Crocheto ♥" BackgroundColor="Transparent" FontSize="16" TextColor="#f76f9c" BorderColor="#f7f8f7"/>
+                        <ImageButton Source="share.png" WidthRequest="25" HeightRequest="25" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" Margin="5"/>
                     </StackLayout>
 
 
                 </StackLayout>
             </Frame>
-            <Frame BackgroundColor="#ff639e" Margin="0" VerticalOptions="EndAndExpand" Padding="0" HasShadow="True" >
+            <Frame BorderColor="#ff639e" Margin="0" VerticalOptions="EndAndExpand" Padding="0" HasShadow="True" >
                 <Frame.Shadow>
-                    <Shadow Radius="10" Opacity="1" Brush="#161616" Offset="10,10" />
+                    <Shadow Radius="10" Opacity="1" Brush="#ff639e" Offset="10,10" />
                 </Frame.Shadow>
                 <StackLayout Orientation="Vertical" Padding="15">
                     <StackLayout Orientation="Vertical">
-                        <Label Text="“Unlock Premium to gain full access to our extensive library of PDF patterns and enjoy a host of other benefits.With Premium take your creativity to the next level. Don’t miss out on this opportunity - go Premium today!”" FontSize="16" BackgroundColor="Transparent"  TextColor="#f7f8f7" />
+                        <Label Text="“Unlock Premium to gain full access to our extensive library of PDF patterns and enjoy a host of other benefits.With Premium take your creativity to the next level. Don’t miss out on this opportunity - go Premium today!”" FontSize="16" BackgroundColor="Transparent"  TextColor="#ff639e" />
                     </StackLayout>
                     
                     <ImageButton Source="next.png" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" />
