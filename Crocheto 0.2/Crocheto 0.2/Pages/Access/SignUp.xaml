@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crocheto_0._2.Pages.Access.SignUp"
+             BackgroundColor="#f7f8f7">
+    
+    <ContentPage.Resources>
+        <StyleSheet Source="styles.css" />
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#101010" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="Margin" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Crocheto" Grid.Row="0" HorizontalTextAlignment="Center" FontSize="56" FontFamily="Cursive" FontAttributes="Italic" TextColor="#ff669a" Margin="0, 70, 0, 50"/>
+
+        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="20, 50, 20, 50" Spacing="15">
+            <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
+                <Entry Placeholder="Username" Text="{Binding Username}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
+            </Frame>
+            <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
+                <Entry Placeholder="Email" Text="{Binding Email}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
+            </Frame>
+            <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
+                <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" TextColor="#141414" StyleClass="input-class" Margin="3"/>
+            </Frame>
+
+            <Button Text="Sign Up" Command="{Binding SignUpCommand}" FontSize="16" CornerRadius="10" BackgroundColor="#ff669a" WidthRequest="200" HorizontalOptions="Center" TextColor="#f7f8f7"/>
+
+            
+        </StackLayout>
+        <StackLayout Grid.Row="2" VerticalOptions="End" Margin="0,120,0,0">
+            <Label HorizontalTextAlignment="Center" FontSize="16" Text="Already have account?" TextColor="#141414"/>
+            <Button Text="Login" Clicked="LoginClick" FontSize="18" FontAttributes="Bold" CornerRadius="0" BackgroundColor="#f7f8f7" WidthRequest="200" HorizontalOptions="Center" TextColor="#ff669a"/>
+        </StackLayout>
+
+
+
+    </Grid>
+</ContentPage>

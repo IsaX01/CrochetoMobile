@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crocheto_0._2.Pages.Home.HomeAdmin"
+             xmlns:local="clr-namespace:Crocheto_0._2"
+             xmlns:charts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             Title="HomeAdmin" Shell.NavBarIsVisible="False">
+
+    <ContentPage.BindingContext>
+        <local:DashboardViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5">
+            <Label Text="Crocheto" 
+               HorizontalOptions="Start" 
+               TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
+            <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="5" Padding="6">
+            <Label Text="Admin Dashboard" 
+               HorizontalOptions="EndAndExpand" 
+               TextColor="Black" FontAttributes="Bold" FontSize="24" />
+        </StackLayout>
+
+        <ScrollView Grid.Row="2" Padding="5">
+            <StackLayout Spacing="20" Margin="5">
+                <StackLayout>
+                    <Label Text="Access Users" FontSize="22" TextColor="#ff669a"/>
+                    <charts:ChartView x:Name='accessUsers' HeightRequest="400" BackgroundColor="#80ff669a"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Downloads" FontSize="22" TextColor="#ff669a"/>
+                    <charts:ChartView x:Name='downloads' HeightRequest="400"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Registered Users" FontSize="22" TextColor="#ff669a"/>
+                    <charts:ChartView x:Name='registerUsers' HeightRequest="400"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

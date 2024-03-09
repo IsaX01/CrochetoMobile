@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crocheto_0._2.Pages.Maintenances.Mantenances"
+             Title="Mantenances" Shell.NavBarIsVisible="False" xmlns:maui="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls"
+>
+    
+    <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5" Margin="0,0,0,0">
+            <Label Text="Crocheto" 
+            HorizontalOptions="Start" 
+            TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
+            <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="20">
+            <StackLayout Spacing="20" Margin="5" BackgroundColor="#20ff669a" Padding="20">
+                <StackLayout>
+                    <Label Text="Adding new collection of patterns" FontAttributes="Bold" FontSize="16"/>
+                </StackLayout>
+                <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
+                    <Entry Placeholder="Title" Margin="3"/>
+                </Frame>
+                <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
+                    <Entry Placeholder="Subtitle" Margin="3"/>
+                </Frame>
+                <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
+                    <Entry Placeholder="Description" Margin="3"/>
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox/>
+                    <Label FontSize="18" Text="Trending?" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="10" Margin="5" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Upload Image" WidthRequest="150"  CornerRadius="10" BackgroundColor="#ff669a"/>
+                    <Button Text="Upload Archive"  WidthRequest="150"   CornerRadius="10" BackgroundColor="#ff669a"/>
+                </StackLayout>
+                <Button Text="Save"  WidthRequest="150" CornerRadius="10" BorderColor="#fb3975" BorderWidth="2" BackgroundColor="#f7f8f7" TextColor="#fb3975"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10" Margin="5,20,5,0">
+                <Label Text="Search functionality coming soon!" FontAttributes="Bold" FontSize="16"/>
+                <SearchBar Placeholder="Search..." Margin="0, 0, 0, 10"/>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

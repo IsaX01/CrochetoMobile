@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crocheto_0._2.Pages.Home.HomeClient" xmlns:local="clr-namespace:Crocheto_0._2" BackgroundColor="#f7f8f7" Shell.NavBarIsVisible="False"
+              xmlns:helper="clr-namespace:Crocheto_0._2.Helpers">
+
+    <ContentPage.BindingContext>
+        <local:CardsHome/>
+    </ContentPage.BindingContext>
+
+
+    <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <!-- Title -->
+        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5">
+            <Label Text="Crocheto" 
+               HorizontalOptions="Start" 
+               TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
+            <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
+        </StackLayout>
+
+
+        <SearchBar Placeholder="Search..." Margin="0, 0, 0, 10" Grid.Row="1"/>
+
+        <!-- Filters -->
+
+        <ScrollView Orientation="Horizontal" Grid.Row="2">
+            <StackLayout Orientation="Horizontal" Spacing="10" Padding="10, 0, 0, 0" >
+                <Button x:Name="RecentButton" Text="Recents" Command="{Binding FilterCommand}" CommandParameter="Recents" TextColor="#f7f8f7" BackgroundColor="#ff669a" CornerRadius="20" Style="{Binding RecentButtonStyle}"></Button>
+                <Button Text="Trending" Command="{Binding FilterCommand}" CommandParameter="Trending" CornerRadius="20" Style="{Binding TrendingButtonStyle}" BorderColor="#ff669a" BorderWidth="2" TextColor="#ff669a" BackgroundColor="#f7f8f7"/>
+                <Button Text="Favorites" Command="{Binding FilterCommand}" CommandParameter="Favorites" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
+                <Button Text="Premiun" Command="{Binding FilterCommand}" CommandParameter="Premiun" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
+                <Button Text="Free" Command="{Binding FilterCommand}" CommandParameter="Free" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
+
+            </StackLayout>
+        </ScrollView>
+        <!-- Cards -->
+
+
+
+            <!-- Vertical Cards in Two Columns -->
+            <CollectionView ItemsSource="{Binding FilteredCollection}" Grid.Row="3"
+                         ItemsLayout="VerticalGrid, 2" >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10" Margin="10" CornerRadius="10" BorderColor="#ff669a">
+                            <StackLayout Spacing="5">
+                                <Image Source="{Binding Image}" Aspect="AspectFill"/>
+                                <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Large"/>
+                                <Label Text="{Binding Description}" FontSize="Small"/>
+                                <Label Text="{Binding Subtitle}" FontSize="Medium" TextColor="Gray"/>
+                                <Label Text="{Binding Trending}" FontSize="Medium" FontAttributes="Bold" TextColor="#ff669a"/>
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Image WidthRequest="30" HeightRequest="30">
+                                    <Image.Source>
+                                        <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.Download}" Color="#ff669a" Size="30" />
+                                    </Image.Source>
+                                </Image>
+                                <Image WidthRequest="30" HeightRequest="30">
+                                    <Image.Source>
+                                        <FontImageSource FontFamily="FAR" Glyph="{x:Static helper:FontAwesoneHelpers.Star}" Color="#ff669a" Size="30" />
+                                    </Image.Source>
+                                </Image>
+                                <Image WidthRequest="30" HeightRequest="30">
+                                    <Image.Source>
+                                        <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.Share}" Color="#ff669a" Size="30" />
+                                    </Image.Source>
+                                </Image>
+                            </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+    </Grid>
+</ContentPage>
+
+
+
+
+
