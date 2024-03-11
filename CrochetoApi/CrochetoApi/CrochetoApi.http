@@ -1,6 +1,0 @@
-@CrochetoApi_HostAddress = http://localhost:5058
-
-GET {{CrochetoApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

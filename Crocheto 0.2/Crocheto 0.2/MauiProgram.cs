@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microcharts.Maui;
+using Crocheto_0._2.Services;
+using Crocheto_0._2.Pages.Access;
 
 namespace Crocheto_0._2
 {
@@ -19,6 +21,8 @@ namespace Crocheto_0._2
                     fonts.AddFont("Free-Solid-900.otf", "FAS");
                 })
                 .UseMicrocharts();
+
+
 
 #if DEBUG
     		builder.Logging.AddDebug();
