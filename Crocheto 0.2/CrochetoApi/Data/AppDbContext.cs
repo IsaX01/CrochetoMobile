@@ -14,6 +14,8 @@ namespace CrochetoApi.Data
         }
 
         public DbSet<Models.User> Users { get; set; }
-        public DbSet<Models.Role> Roles { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<Crochet> Crochets { get; set; }
+
     }
 }

@@ -70,158 +70,215 @@
     <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
+      <PackagePath>account.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png">
+      <PackagePath>back.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dashboard.scale-100.png">
+      <PackagePath>dashboard.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\done.scale-100.png">
+      <PackagePath>done.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\download.scale-100.png">
+      <PackagePath>download.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favorite.scale-100.png">
+      <PackagePath>favorite.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favoriteborder.scale-100.png">
+      <PackagePath>favoriteborder.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login.scale-100.png">
+      <PackagePath>login.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
+      <PackagePath>menu.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu2.scale-100.png">
+      <PackagePath>menu2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menuopen.scale-100.png">
+      <PackagePath>menuopen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menuopen2.scale-100.png">
+      <PackagePath>menuopen2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\next.scale-100.png">
+      <PackagePath>next.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\next2.scale-100.png">
+      <PackagePath>next2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outline.scale-100.png">
+      <PackagePath>outline.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pdf.scale-100.jpg">
+      <PackagePath>pdf.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
+      <PackagePath>settings.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share.scale-100.png">
+      <PackagePath>share.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Crocheto 0.2.deps.json">
       <PackagePath>Crocheto 0.2.deps.json</PackagePath>
@@ -348,6 +405,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\developer\.nuget\packages\plugin.fingerprint\2.1.5\lib\netstandard2.0\Plugin.Fingerprint.dll">
+      <PackagePath>Plugin.Fingerprint.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\.nuget\packages\skiasharp\2.88.7\lib\net6.0\SkiaSharp.dll">
       <PackagePath>SkiaSharp.dll</PackagePath>

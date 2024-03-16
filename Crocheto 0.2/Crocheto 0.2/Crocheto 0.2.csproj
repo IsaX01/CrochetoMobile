@@ -60,6 +60,25 @@
 	  <None Remove="Resources\Fonts\Brands-Regular-400.otf" />
 	  <None Remove="Resources\Fonts\Free-Regular-400.otf" />
 	  <None Remove="Resources\Fonts\Free-Solid-900.otf" />
+	  <None Remove="Resources\Images\account.png" />
+	  <None Remove="Resources\Images\back.png" />
+	  <None Remove="Resources\Images\dashboard.png" />
+	  <None Remove="Resources\Images\done.png" />
+	  <None Remove="Resources\Images\download.png" />
+	  <None Remove="Resources\Images\favorite.png" />
+	  <None Remove="Resources\Images\favoriteborder.png" />
+	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\login.png" />
+	  <None Remove="Resources\Images\menu.png" />
+	  <None Remove="Resources\Images\menu2.png" />
+	  <None Remove="Resources\Images\menuopen.png" />
+	  <None Remove="Resources\Images\menuopen2.png" />
+	  <None Remove="Resources\Images\next.png" />
+	  <None Remove="Resources\Images\next2.png" />
+	  <None Remove="Resources\Images\outline.png" />
+	  <None Remove="Resources\Images\pdf.jpg" />
+	  <None Remove="Resources\Images\settings.png" />
+	  <None Remove="Resources\Images\share.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -69,6 +88,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Plugin.Fingerprint" Version="2.1.5" />
 		<PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.7" />
 		<PackageReference Include="System.Net.Http" Version="4.3.4" />
 	</ItemGroup>
@@ -92,13 +112,31 @@
 	  <MauiXaml Update="Pages\Home\HomeClient.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Maintenances\CrochetAdd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Maintenances\Mantenances.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile\Account.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile\Languages.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile\Notification.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Profile\Password.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Profile\Password2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile\Payment.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile\Policys.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Profile\Profile.xaml">

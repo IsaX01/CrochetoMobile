@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crocheto_0._2.Pages.Profile.Policys"
+             Title="Policys" BackgroundColor="#f7f8f7" Shell.NavBarIsVisible="False" xmlns:helper="clr-namespace:Crocheto_0._2.Helpers">
+
+    <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5">
+            <Label Text="Crocheto" 
+            HorizontalOptions="Start" 
+            TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
+            <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Margin="0,0,0,0" Orientation="Horizontal" Spacing="10">
+            <ImageButton WidthRequest="30" HeightRequest="30" HorizontalOptions="Start" Margin="10" Clicked="profileBack">
+                <ImageButton.Source>
+                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.ArrowLeft}" Color="#ff639e" Size="35" />
+                </ImageButton.Source>
+            </ImageButton>
+            <Label Text="Privacy Policy" FontAttributes="Bold" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" TextColor="#ff639e"/>
+        </StackLayout>
+
+        <ScrollView Grid.Row="2" Padding="10">
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+
+                        <Span Text="&#x0a;&#x0a;Last Updated: 13/03/2024" />
+
+                        <Span Text="&#x0a;&#x0a;This Privacy Policy describes how your personal information is collected, used, and shared when you use our application that allows downloading and uploading PDFs about design patterns." />
+
+                        <Span Text="&#x0a;&#x0a;Information We Collect" FontAttributes="Bold" FontSize="20" />
+
+                        <Span Text="&#x0a;&#x0a;When you use the app, we collect certain information from your device, including but not limited to, your device's IP address, device type, operating system, geographical location, language of your device, web pages you visit before or after using the app, and information about the way you use the app." />
+
+                        <Span Text="&#x0a;&#x0a;How We Use Your Information" FontAttributes="Bold" FontSize="20" />
+
+                        <Span Text="&#x0a;&#x0a;We use the information we collect from you to:" />
+
+                        <Span Text="&#x0a;- Provide you with the functionality of the app, including access to the PDFs about design patterns." />
+                        <Span Text="&#x0a;- Improve and optimize our app." />
+                        <Span Text="&#x0a;- Provide you with information or advertising relating to our products or services." />
+
+                        <Span Text="&#x0a;&#x0a;Sharing Your Personal Information" FontAttributes="Bold" FontSize="20" />
+
+                        <Span Text="&#x0a;&#x0a;We do not share your personal information with third parties. We only share your personal information to comply with applicable laws, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights." />
+
+                        <Span Text="&#x0a;&#x0a;Your Rights" FontAttributes="Bold" FontSize="20" />
+
+                        <Span Text="&#x0a;&#x0a;If you reside in certain territories, including the EU, you have a number of rights in relation to your personal information. These rights include the right to access personal information we hold about you, to correct that information, to delete it, and to restrict or object to our use of it." />
+
+                        <Span Text="&#x0a;&#x0a;Changes" FontAttributes="Bold" FontSize="20" />
+
+                        <Span Text="&#x0a;&#x0a;We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons." />
+
+                        <Span Text="&#x0a;&#x0a;Contact Us" FontAttributes="Bold" FontSize="20" />
+
+                        <Span Text="&#x0a;&#x0a;For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at [email] or by mail using the details provided below:" />
+
+                        <Span Text="&#x0a;&#x0a;Crocheto®" />
+
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </ScrollView>
+    </Grid>
+</ContentPage>

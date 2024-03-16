@@ -2,6 +2,8 @@
 using Microcharts.Maui;
 using Crocheto_0._2.Services;
 using Crocheto_0._2.Pages.Access;
+using Plugin.Fingerprint;
+using Plugin.Fingerprint.Abstractions;
 
 namespace Crocheto_0._2
 {
@@ -22,7 +24,7 @@ namespace Crocheto_0._2
                 })
                 .UseMicrocharts();
 
-
+            builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
 
 #if DEBUG
     		builder.Logging.AddDebug();

@@ -66,11 +66,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Home.H
 build_metadata.AdditionalFiles.TargetPath = Pages\Home\HomeClient.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Home\HomeClient.xaml
 
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Maintenances/CrochetAdd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Maintenances.CrochetAdd.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Maintenances\CrochetAdd.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Maintenances\CrochetAdd.xaml
+
 [C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Maintenances/Mantenances.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Maintenances.Mantenances.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Maintenances\Mantenances.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Maintenances\Mantenances.xaml
+
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Profile/Account.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Profile.Account.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Profile\Account.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Profile\Account.xaml
+
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Profile/Languages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Profile.Languages.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Profile\Languages.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Profile\Languages.xaml
+
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Profile/Notification.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Profile.Notification.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Profile\Notification.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Profile\Notification.xaml
 
 [C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Profile/Password.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -83,6 +107,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Profile.Password2.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Profile\Password2.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Profile\Password2.xaml
+
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Profile/Payment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Profile.Payment.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Profile\Payment.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Profile\Payment.xaml
+
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Profile/Policys.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Profile.Policys.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Profile\Policys.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Profile\Policys.xaml
 
 [C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Profile/Profile.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

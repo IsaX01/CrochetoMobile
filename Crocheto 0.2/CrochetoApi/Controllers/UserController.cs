@@ -6,6 +6,7 @@ using BCrypt.Net;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace CrochetoApi.Controllers
 {
@@ -54,8 +55,55 @@ namespace CrochetoApi.Controllers
             // Generar token JWT
             var token = GenerateJwtToken(usersDB);
 
-            return Ok(new { token });
+            return Ok(new { token, Rol = usersDB.Rol, Id = usersDB.Id });
         }
+
+        [HttpGet("user/{id}")]
+        public async Task<ActionResult<Models.User>> GetUser(int id)
+        {
+            var user = await _context.Users.FindAsync(id);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            user.Password = null;
+
+            return user;
+        }
+
+        [HttpPatch("user/{id}")]
+        public async Task<IActionResult> PatchUser(int id, [FromBody] JsonPatchDocument<Models.User> patchDoc)
+        {
+            if (patchDoc != null)
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                patchDoc.ApplyTo(user, (Microsoft.AspNetCore.JsonPatch.Adapters.IObjectAdapter)ModelState);
+
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                _context.Users.Update(user);
+                await _context.SaveChangesAsync();
+
+                return new ObjectResult(user);
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+        }
+
+
 
         private string GenerateJwtToken(Models.User user)
         {

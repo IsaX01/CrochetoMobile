@@ -31,9 +31,9 @@
 
               
                     <StackLayout>
-                        <Label Text="Isaias Badia" FontSize="24" TextColor="#ff619a" />
-                        <Label Text="isaiasbadia@badiagroup.com" FontSize="14" TextColor="#ff619a" />
-                        <Label Text="Premiun User" FontAttributes="Bold" FontSize="14" TextColor="#ff619a" />
+                        <Label x:Name="nameLabel" FontSize="24" TextColor="#ff619a" />
+                        <Label x:Name="emailLabel" FontSize="14" TextColor="#f76f9c" />
+                        <Label x:Name="subscriptionLabel" FontAttributes="Bold" FontSize="16" TextColor="#f76f9c" />
                     </StackLayout>
 
 
@@ -47,53 +47,100 @@
             </Frame>
             <Frame BorderColor="#f76f9c" Margin="0" Padding="0" HasShadow="True" BackgroundColor="Transparent">
                 <StackLayout Spacing="10" Margin="10">
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="Account information" FontAttributes="Bold" FontSize="18" BackgroundColor="Transparent" TextColor="#f76f9c" BorderColor="#f7f8f7"   />
-                        <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand">
-                        <Image.Source>
-                                <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
-                        </Image.Source>
-                    </Image>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Account information                          " Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Account" FontAttributes="Bold" 
+                                    FontSize="18" BackgroundColor="Transparent" TextColor="#f76f9c"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button  Clicked="NewPassword" FontAttributes="Bold"  Text="Passwords" BackgroundColor="Transparent" TextColor="#f76f9c" FontSize="18" BorderColor="#f7f8f7" />
-                        <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand">
-                            <Image.Source>
-                                <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
-                            </Image.Source>
-                        </Image>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Clicked="NewPassword" FontAttributes="Bold" Text="Passwords                                           " BackgroundColor="Transparent" 
+                                    TextColor="#f76f9c" FontSize="18" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="Privacy Policy" FontAttributes="Bold" FontSize="18" BackgroundColor="Transparent" TextColor="#f76f9c" BorderColor="#f7f8f7" />
-                        <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand">
-                            <Image.Source>
-                                <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
-                            </Image.Source>
-                        </Image>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Privacy Policy                                      " Clicked="Policy" Grid.Column="0" FontAttributes="Bold" HorizontalOptions="FillAndExpand" 
+                                    FontSize="18" BackgroundColor="Transparent" TextColor="#f76f9c" />
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="Notification" FontAttributes="Bold" BackgroundColor="Transparent" FontSize="18" TextColor="#f76f9c" BorderColor="#f7f8f7"/>
-                        <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand">
-                            <Image.Source>
-                                <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
-                            </Image.Source>
-                        </Image>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Notification                                         " Clicked="Notification" FontAttributes="Bold" Grid.Column="0" BackgroundColor="Transparent" FontSize="18" 
+                                    TextColor="#f76f9c" BorderColor="#f7f8f7" HorizontalOptions="FillAndExpand"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="Languages" FontAttributes="Bold" BackgroundColor="Transparent" FontSize="18" TextColor="#f76f9c" BorderColor="#f7f8f7" />
-                        <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand">
-                            <Image.Source>
-                                <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
-                            </Image.Source>
-                        </Image>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Languages                                          " Clicked="Languages" HorizontalOptions="FillAndExpand" FontAttributes="Bold" BackgroundColor="Transparent" 
+                                    FontSize="18" TextColor="#f76f9c" BorderColor="#f7f8f7" Grid.Column="0" />
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="Share Crocheto ♥" FontAttributes="Bold" BackgroundColor="Transparent" FontSize="18" TextColor="#f76f9c" BorderColor="#f7f8f7"/>
-                        <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand">
-                            <Image.Source>
-                                <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
-                            </Image.Source>
-                        </Image>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Button Text="Share Crocheto ♥                           " Clicked="ShareApp" HorizontalOptions="FillAndExpand" Grid.Column="0" FontAttributes="Bold" 
+                                    BackgroundColor="Transparent" FontSize="18" TextColor="#f76f9c" BorderColor="#f7f8f7"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
                     </StackLayout>
 
 
@@ -105,11 +152,11 @@
                         <Label Text="“Unlock Premium to gain full access to our extensive library of PDF patterns and enjoy a host of other benefits.With Premium take your creativity to the next level. Don’t miss out on this opportunity - go Premium today!”" FontSize="16" BackgroundColor="Transparent"  TextColor="#ff639e" />
                     </StackLayout>
 
-                    <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand" Margin="10">
-                        <Image.Source>
+                    <ImageButton WidthRequest="30" HeightRequest="30" HorizontalOptions="EndAndExpand" Margin="10" Clicked="Paid">
+                        <ImageButton.Source>
                             <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.ArrowRight}" Color="#ff639e" Size="35" />
-                        </Image.Source>
-                    </Image>
+                        </ImageButton.Source>
+                    </ImageButton>
                 </StackLayout>
             </Frame>
         </StackLayout>
