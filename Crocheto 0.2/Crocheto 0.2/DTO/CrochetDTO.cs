@@ -17,5 +17,6 @@ namespace Crocheto_0._2.DTO
         public byte[]? PdfFile { get; set; }
         public string UserId { get; set; }
         public bool? IsAdmin { get; set; }
+
     }
 }

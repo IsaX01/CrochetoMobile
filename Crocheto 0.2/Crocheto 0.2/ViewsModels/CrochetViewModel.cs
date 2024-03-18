@@ -36,15 +36,69 @@ namespace Crocheto_0._2.ViewsModels
         public string UserId { get; set; }
         public bool IsAdmin { get; set; }
 
+        private string _searchText;
+        public string SearchText
+        {
+            get { return _searchText; }
+            set
+            {
+                _searchText = value;
+                OnPropertyChanged();
+
+                LoadData();
+            }
+        }
+
+        private bool _isLoading;
+        public bool IsLoading
+        {
+            get { return _isLoading; }
+            set
+            {
+                _isLoading = value;
+                OnPropertyChanged();
+            }
+        }
+
+
         public async Task LoadData()
         {
+            IsLoading = true;
             try
             {
-                Crochets = await _crochetService.GetAll();
+                var allCrochets = await _crochetService.GetAll();
+
+                Crochets = string.IsNullOrEmpty(SearchText)
+                    ? allCrochets
+                    : allCrochets.Where(c => c.Title.Contains(SearchText)).ToList();
             }
             catch (Exception ex)
             {
-                Debug.WriteLine($"Error al cargar datos: {ex.Message}");
+                Debug.WriteLine($"Error load data: {ex.Message}");
+            }
+            finally
+            {
+                IsLoading = false;
+            }
+        }
+
+        public List<ImageSource> ImageSources
+        {
+            get
+            {
+                var imageSources = new List<ImageSource>();
+
+                foreach (var crochet in Crochets)
+                {
+                    if (!string.IsNullOrEmpty(crochet.Image))
+                    {
+                        // Convertir la cadena Base64 de nuevo a una imagen
+                        byte[] imageBytes = Convert.FromBase64String(crochet.Image);
+                        imageSources.Add(ImageSource.FromStream(() => new MemoryStream(imageBytes)));
+                    }
+                }
+
+                return imageSources;
             }
         }
 
@@ -65,17 +119,24 @@ namespace Crocheto_0._2.ViewsModels
 
 
 
+
         public async void ShareCard(CrochetDTO crochet)
         {
             await Share.RequestAsync(new ShareTextRequest
             {
                 Text = crochet.Title + "\n" + crochet.Description,
-                Title = "Compartir Crochet"
+                Title = "Share Crochet"
             });
         }
 
         public async void Download(CrochetDTO crochet)
         {
+            if (crochet.PdfFile == null)
+            {
+                MessagingCenter.Send(this, "Error", "No PDF file available for this item.");
+                return;
+            }
+
             var file = Path.Combine(FileSystem.CacheDirectory, crochet.Title + ".pdf");
             File.WriteAllBytes(file, crochet.PdfFile);
             await Launcher.OpenAsync(new OpenFileRequest
@@ -83,6 +144,7 @@ namespace Crocheto_0._2.ViewsModels
                 File = new ReadOnlyFile(file)
             });
         }
+
 
     }
 

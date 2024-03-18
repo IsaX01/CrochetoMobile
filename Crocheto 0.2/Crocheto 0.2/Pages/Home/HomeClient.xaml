@@ -2,7 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Crocheto_0._2.Pages.Home.HomeClient" xmlns:local="clr-namespace:Crocheto_0._2" BackgroundColor="#f7f8f7" Shell.NavBarIsVisible="False"
-              xmlns:helper="clr-namespace:Crocheto_0._2.Helpers" xmlns:vm="clr-namespace:Crocheto_0._2.ViewsModels">
+              xmlns:helper="clr-namespace:Crocheto_0._2.Helpers" xmlns:vm="clr-namespace:Crocheto_0._2.ViewsModels"  xmlns:converters="clr-namespace:Crocheto_0._2">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:Base64ToImageConverter x:Key="Base64ToImageConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
 
     <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
@@ -23,14 +29,14 @@
         </StackLayout>
 
 
-        <SearchBar Placeholder="Search..." Margin="0, 0, 0, 10" Grid.Row="1"/>
+        <SearchBar Placeholder="Search..." Margin="0, 0, 0, 10" Grid.Row="1" Text="{Binding SearchText}" TextChanged="OnSearchTextChanged"/>
 
         <!-- Filters -->
 
         <ScrollView Orientation="Horizontal" Grid.Row="2">
             <StackLayout Orientation="Horizontal" Spacing="10" Padding="10, 0, 0, 0" >
-                <Button x:Name="RecentButton" Text="Recents"  CommandParameter="Recents" TextColor="#f7f8f7" BackgroundColor="#ff669a" CornerRadius="20"></Button>
-                <Button Text="Trending"  CommandParameter="Trending" CornerRadius="20" BorderColor="#ff669a" BorderWidth="2" TextColor="#ff669a" BackgroundColor="#f7f8f7"/>
+                <Button x:Name="RecentButton" Text="All Crochets"  CommandParameter="Recents" TextColor="#f7f8f7" BackgroundColor="#ff669a" CornerRadius="20"></Button>
+                <Button Text="Recents"  CommandParameter="Trending" CornerRadius="20" BorderColor="#ff669a" BorderWidth="2" TextColor="#ff669a" BackgroundColor="#f7f8f7"/>
                 <Button Text="Favorites"  CommandParameter="Favorites" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
                 <Button Text="Premiun"  CommandParameter="Premiun" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
                 <Button Text="Free" CommandParameter="Free" CornerRadius="20" BorderColor="#ff669a" TextColor="#ff669a" BorderWidth="2" BackgroundColor="#f7f8f7"/>
@@ -39,33 +45,35 @@
         </ScrollView>
         <!-- Cards -->
 
+        <ActivityIndicator Grid.Row="3" IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" Color="#ff669a" Scale="1.5" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
 
 
-            <!-- Vertical Cards in Two Columns -->
+        <!-- Vertical Cards in Two Columns -->
         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="3">
             <CollectionView ItemsSource="{Binding Crochets}" 
-                         ItemsLayout="VerticalGrid, 2">
+                         ItemsLayout="VerticalGrid, 1">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame Padding="10" Margin="10" CornerRadius="10" BorderColor="#fa3a76">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnCardTapped" NumberOfTapsRequired="1" />
+                            </Frame.GestureRecognizers>
                             <StackLayout Spacing="5">
-                                <Image Source="{Binding ImageSource}" Aspect="AspectFill"/>
+                                <Image Source="{Binding Image, Converter={StaticResource Base64ToImageConverter}}" Aspect="Fill" HeightRequest="200"/>
                                 <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Large"/>
-                                <Label Text="{Binding Description}" FontSize="Small"/>
-                                <Label Text="{Binding Subtitle}" FontSize="Medium" TextColor="Gray"/>
-                                <Label Text="{Binding StatusText}" FontSize="Medium" FontAttributes="Bold" TextColor="#ff669a"/>
+                                <Label Text="{Binding StatusText}" FontSize="18" FontAttributes="Bold" />
                                 <StackLayout Orientation="Horizontal" Spacing="10">
-                                    <ImageButton WidthRequest="30" HeightRequest="30"> 
+                                    <ImageButton WidthRequest="30" HeightRequest="30" Clicked="OnDownloadClicked" CommandParameter="{Binding}"> 
                                         <ImageButton.Source>
                                                 <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.Download}" Color="#fa3a76" Size="30" />
                                         </ImageButton.Source>
                                     </ImageButton>
-                                        <ImageButton WidthRequest="30" HeightRequest="30">
+                                    <ImageButton WidthRequest="30" HeightRequest="30">
                                             <ImageButton.Source>
                                                 <FontImageSource FontFamily="FAR" Glyph="{x:Static helper:FontAwesoneHelpers.Star}" Color="#fa3a76" Size="30" />
                                         </ImageButton.Source>
                                     </ImageButton>
-                                    <ImageButton WidthRequest="30" HeightRequest="30" >
+                                    <ImageButton WidthRequest="30" HeightRequest="30"  Clicked="OnShareClicked" CommandParameter="{Binding}">
                                         <ImageButton.Source>
                                             <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.Share}" Color="#fa3a76" Size="30" />
                                         </ImageButton.Source>

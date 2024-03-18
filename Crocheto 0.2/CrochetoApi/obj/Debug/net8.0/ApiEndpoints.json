@@ -162,9 +162,9 @@
   },
   {
     "ContainingType": "CrochetoApi.Controllers.UserController",
-    "Method": "PatchUser",
+    "Method": "UpdateUser",
     "RelativePath": "user/{id}",
-    "HttpMethod": "PATCH",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -174,8 +174,8 @@
         "IsRequired": true
       },
       {
-        "Name": "patchDoc",
-        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[CrochetoApi.Models.User, CrochetoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "updatedUser",
+        "Type": "CrochetoApi.Models.User",
         "IsRequired": true
       }
     ],

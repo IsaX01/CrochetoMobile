@@ -1568,7 +1568,6 @@ C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -1578,7 +1577,6 @@ C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\static.flag
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\buildid.txt
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\environment.x86_64.ll
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -2087,13 +2085,6 @@ C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\com\companyname\crocheto_0\x2\R.java
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\typemaps.x86_64.o
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\environment.x86_64.o
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
-C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -2148,3 +2139,12 @@ C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\androidx\biometric\R.java
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\src\crc64e6d0b84c6264ccdd\AuthenticationHandler.java
 C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\environment.x86_64.ll
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\environment.x86_64.o
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+C:\Users\developer\Desktop\Client-Api\Crocheto 0.2\Crocheto 0.2\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so

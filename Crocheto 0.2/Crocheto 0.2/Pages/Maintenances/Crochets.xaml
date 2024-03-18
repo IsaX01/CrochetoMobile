@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crocheto_0._2.Pages.Maintenances.Crochets"
+             Title="Crochets" xmlns:helper="clr-namespace:Crocheto_0._2.Helpers" xmlns:vm="clr-namespace:Crocheto_0._2.ViewsModels"  xmlns:converters="clr-namespace:Crocheto_0._2">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:Base64ToImageConverter x:Key="Base64ToImageConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <!-- Title -->
+        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5">
+            <Label Text="Crocheto" 
+           HorizontalOptions="Start" 
+           TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
+            <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Margin="0,0,0,0" Orientation="Horizontal" Spacing="10">
+            <ImageButton WidthRequest="30" HeightRequest="30" HorizontalOptions="Start" Margin="10" Clicked="HomeAdmin">
+                <ImageButton.Source>
+                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.ArrowLeft}" Color="#ff639e" Size="35" />
+                </ImageButton.Source>
+            </ImageButton>
+            <Label Text="All Crochets" FontAttributes="Bold" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" TextColor="#ff639e"/>
+        </StackLayout>
+
+
+        <SearchBar Placeholder="Search..." Margin="0, 0, 0, 10" Grid.Row="2" Text="{Binding SearchText}" TextChanged="OnSearchTextChanged"/>
+
+        <ActivityIndicator Grid.Row="3" IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" Color="#ff669a" Scale="1.5" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+        <!-- Vertical Cards in Two Columns -->
+        <CollectionView ItemsSource="{Binding Crochets}" 
+                     ItemsLayout="VerticalGrid, 1" Grid.Row="3">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="10" CornerRadius="10" BorderColor="#fa3a76">
+                        <StackLayout Spacing="5">
+                            <Image Source="{Binding Image, Converter={StaticResource Base64ToImageConverter}}" Aspect="Fill" HeightRequest="200"/>
+                            <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Large"/>
+                            <Label Text="{Binding StatusText}" FontSize="18" FontAttributes="Bold" />
+                            <StackLayout Orientation="Horizontal" Spacing="15" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="5">
+                                <ImageButton WidthRequest="30" HeightRequest="30">
+                                    <ImageButton.Source>
+                                        <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.PenToSquare}" Color="#fa3a76" Size="30" />
+                                    </ImageButton.Source>
+                                </ImageButton>
+                                <ImageButton WidthRequest="30" HeightRequest="30">
+                                    <ImageButton.Source>
+                                        <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.Trash}" Color="#fa3a76" Size="30" />
+                                    </ImageButton.Source>
+                                </ImageButton>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+</ContentPage>

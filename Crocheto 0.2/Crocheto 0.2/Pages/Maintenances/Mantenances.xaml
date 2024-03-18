@@ -2,51 +2,134 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Crocheto_0._2.Pages.Maintenances.Mantenances"
-             Title="Mantenances" Shell.NavBarIsVisible="False" xmlns:maui="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls"
->
-    
-    <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
+             Title="Mantenances" Shell.NavBarIsVisible="False" xmlns:helper="clr-namespace:Crocheto_0._2.Helpers" xmlns:maui="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls">
+
+
+
+    <Grid Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" RowSpacing="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5" Margin="0,0,0,0">
+        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5" Padding="5">
             <Label Text="Crocheto" 
-            HorizontalOptions="Start" 
-            TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
+               HorizontalOptions="Start" 
+               TextColor="#ff669a" FontAttributes="Italic" FontSize="Title" />
             <Label Text="®" TextColor="#ff669a" FontSize="Medium"></Label>
         </StackLayout>
 
-        <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="20">
-            <StackLayout Spacing="20" Margin="5" BackgroundColor="#20ff669a" Padding="20">
-                <StackLayout>
-                    <Label Text="Adding new collection of patterns" FontAttributes="Bold" FontSize="16"/>
+        <StackLayout Grid.Row="1" Spacing="10" Margin="5">
+            <Frame BorderColor="#ff619a" BackgroundColor="Transparent">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+
+                    <Image WidthRequest="35" HeightRequest="35">
+                        <Image.Source>
+                            <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.CircleUser}" Color="#ff619a" Size="35" />
+                        </Image.Source>
+                    </Image>
+
+
+                    <StackLayout>
+                        <Label x:Name="nameLabel" FontSize="24" TextColor="#ff619a" />
+                        <Label x:Name="emailLabel" FontSize="14" TextColor="#f76f9c" />
+                        <Label x:Name="RolLabel" FontAttributes="Bold" FontSize="16" TextColor="#f76f9c" />
+                    </StackLayout>
+
+
+                    <Image WidthRequest="30" HeightRequest="40" HorizontalOptions="EndAndExpand">
+                        <Image.Source>
+                            <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.ArrowRightFromBracket}" Color="#ff619a" Size="35" />
+                        </Image.Source>
+                    </Image>
+
                 </StackLayout>
-                <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
-                    <Entry Placeholder="Title" Margin="3"/>
-                </Frame>
-                <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
-                    <Entry Placeholder="Subtitle" Margin="3"/>
-                </Frame>
-                <Frame BorderColor="#ff669a" CornerRadius="5" Padding="2" BackgroundColor="#f7f8f7">
-                    <Entry Placeholder="Description" Margin="3"/>
-                </Frame>
-                <StackLayout Orientation="Horizontal">
-                    <CheckBox/>
-                    <Label FontSize="18" Text="Trending?" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </Frame>
+            <Frame BorderColor="#f76f9c" Margin="0" Padding="0" HasShadow="True" BackgroundColor="Transparent">
+                <StackLayout Spacing="10" Margin="10">
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Account information                          " Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Account" FontAttributes="Bold" 
+                                    FontSize="18" BackgroundColor="Transparent" TextColor="#f76f9c"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
+                    </StackLayout>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button FontAttributes="Bold" Text="Password                                              " BackgroundColor="Transparent" 
+                                    TextColor="#f76f9c" FontSize="18" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
+                    </StackLayout>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="All Users                                                "  Grid.Column="0" FontAttributes="Bold" HorizontalOptions="FillAndExpand" 
+                                    FontSize="18" BackgroundColor="Transparent" TextColor="#f76f9c" />
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
+                    </StackLayout>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="All Crochets                                          " Clicked="AllCrochets"  FontAttributes="Bold" Grid.Column="0" BackgroundColor="Transparent" FontSize="18" 
+                                    TextColor="#f76f9c" BorderColor="#f7f8f7" HorizontalOptions="FillAndExpand"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
+                    </StackLayout>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Add Crochet                                         " Clicked="AddCrochet"  FontAttributes="Bold" Grid.Column="0" BackgroundColor="Transparent" FontSize="18" 
+                     TextColor="#f76f9c" BorderColor="#f7f8f7" HorizontalOptions="FillAndExpand"/>
+                            <Image WidthRequest="30" HeightRequest="30" HorizontalOptions="End" Grid.Column="1">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="FAS" Glyph="{x:Static helper:FontAwesoneHelpers.AngleRight}" Color="#f76f9c" Size="35" />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
+                    </StackLayout>
+
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Spacing="10" Margin="5" HorizontalOptions="CenterAndExpand">
-                    <Button Text="Upload Image" WidthRequest="150"  CornerRadius="10" BackgroundColor="#ff669a"/>
-                    <Button Text="Upload Archive"  WidthRequest="150"   CornerRadius="10" BackgroundColor="#ff669a"/>
-                </StackLayout>
-                <Button Text="Save"  WidthRequest="150" CornerRadius="10" BorderColor="#fb3975" BorderWidth="2" BackgroundColor="#f7f8f7" TextColor="#fb3975"/>
-            </StackLayout>
-            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10" Margin="5,20,5,0">
-                <Label Text="Search functionality coming soon!" FontAttributes="Bold" FontSize="16"/>
-                <SearchBar Placeholder="Search..." Margin="0, 0, 0, 10"/>
-            </StackLayout>
+            </Frame>
         </StackLayout>
     </Grid>
 </ContentPage>

@@ -94,6 +94,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\Maintenances\Account2.xaml.cs">
+	    <DependentUpon>Account2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\Maintenances\CrochetAdd 2.xaml.cs">
+	    <DependentUpon>CrochetAdd 2.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="AdminAppShell.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -106,13 +115,25 @@
 	  <MauiXaml Update="Pages\Access\SignUp.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Home\CrochetDetail.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Home\HomeAdmin.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Home\HomeClient.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Maintenances\Account2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Maintenances\CrochetAdd 2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Maintenances\CrochetAdd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Maintenances\Crochets.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Maintenances\Mantenances.xaml">

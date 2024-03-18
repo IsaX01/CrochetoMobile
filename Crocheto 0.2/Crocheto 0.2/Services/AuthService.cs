@@ -82,12 +82,7 @@ namespace Crocheto_0._2.Services
 
         public async Task<UserDTO> UpdateUser(UserDTO user)
         {
-            var userData = new { id = user.Id, name = user.Name, email = user.Email, rol = user.Rol, hasFingerprintRegistered = user.HasFingerprintRegistered, subscriptiontype = user.SubscriptionType };
-            Debug.WriteLine($"User JSON: {userData}");
-
-            var json = JsonConvert.SerializeObject(userData);
-            Debug.WriteLine($"Request JSON: {json}");
-
+            var json = JsonConvert.SerializeObject(user);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             try
@@ -107,6 +102,7 @@ namespace Crocheto_0._2.Services
 
             return null;
         }
+
 
 
         public async Task<UserDTO> GetUserProfile()

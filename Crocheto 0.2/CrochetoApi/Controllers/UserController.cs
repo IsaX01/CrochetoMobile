@@ -73,35 +73,33 @@ namespace CrochetoApi.Controllers
             return user;
         }
 
-        [HttpPatch("user/{id}")]
-        public async Task<IActionResult> PatchUser(int id, [FromBody] JsonPatchDocument<Models.User> patchDoc)
+        [HttpPut("user/{id}")]
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] Models.User updatedUser)
         {
-            if (patchDoc != null)
+            if (updatedUser == null)
             {
-                var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
-
-                if (user == null)
-                {
-                    return NotFound();
-                }
-
-                patchDoc.ApplyTo(user, (Microsoft.AspNetCore.JsonPatch.Adapters.IObjectAdapter)ModelState);
-
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
-
-                _context.Users.Update(user);
-                await _context.SaveChangesAsync();
-
-                return new ObjectResult(user);
+                return BadRequest();
             }
-            else
+
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+
+            if (user == null)
             {
-                return BadRequest(ModelState);
+                return NotFound();
             }
+
+            user.Name = updatedUser.Name;
+            user.Email = updatedUser.Email;
+            user.Rol = updatedUser.Rol;
+            user.HasFingerprintRegistered = updatedUser.HasFingerprintRegistered;
+            user.SubscriptionType = updatedUser.SubscriptionType;
+
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+
+            return new ObjectResult(user);
         }
+
 
 
 

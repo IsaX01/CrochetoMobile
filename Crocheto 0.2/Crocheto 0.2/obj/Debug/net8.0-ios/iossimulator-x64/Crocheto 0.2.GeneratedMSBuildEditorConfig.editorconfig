@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Access
 build_metadata.AdditionalFiles.TargetPath = Pages\Access\SignUp.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Access\SignUp.xaml
 
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Home/CrochetDetail.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Home.CrochetDetail.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Home\CrochetDetail.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Home\CrochetDetail.xaml
+
 [C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Home/HomeAdmin.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Home.HomeAdmin.xaml
@@ -70,11 +76,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Home.H
 build_metadata.AdditionalFiles.TargetPath = Pages\Home\HomeClient.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Home\HomeClient.xaml
 
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Maintenances/Account2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Maintenances.Account2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Maintenances\Account2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Maintenances\Account2.xaml
+
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Maintenances/CrochetAdd 2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Maintenances.CrochetAdd 2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Maintenances\CrochetAdd 2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Maintenances\CrochetAdd 2.xaml
+
 [C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Maintenances/CrochetAdd.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Maintenances.CrochetAdd.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Maintenances\CrochetAdd.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Maintenances\CrochetAdd.xaml
+
+[C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Maintenances/Crochets.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crocheto_0._2.Pages.Maintenances.Crochets.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Maintenances\Crochets.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Maintenances\Crochets.xaml
 
 [C:/Users/developer/Desktop/Client-Api/Crocheto 0.2/Crocheto 0.2/Pages/Maintenances/Mantenances.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
